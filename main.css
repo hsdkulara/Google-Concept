@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF RESET */
+
+/* General */
+a {
+	text-decoration: none;
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	color:#676767;
+	line-height: 1;
+}
+a:hover {
+	color: #333333;
+	text-decoration: underline;
+	font-family: Arial, Sans-Serif;
+	font-size: 13px;
+	line-height: 1;
+}
+/* Top of Page: Navigation */
+
+#top_nav {
+	float: right;
+	margin: 15px 15px 0 0 ;
+}
+
+#top_nav li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 6px;
+}
+
+#top_nav img {
+	height: 20px;
+	width: 20px;
+	margin: 0;
+}
+
+#top_nav button {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 2px;
+	border: none;
+	padding: 8px;
+	width: 70px;
+	background: #4285f4;
+}
+
+#top_nav button:hover {
+	box-shadow: 0px 2px 2px 0px #e3e3e3;
+}
+
+#top_nav button:active {
+	background-color: #3E79ED;
+	outline: none;
+	box-shadow: 0px 3px 0px 0px #2a5fca inset;
+}
+
+#top_nav button:focus {
+	outline: none;
+} 	
+/* Middle of Page: Logo & Search */
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 270px;
+	padding-bottom: 25px;
+}
+
+#content {
+	position: absolute;
+	top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	left: 0;
+	right: 0;
+}
+
+
+#content input {
+	height: 25px;
+	width: 550px;
+	border: 1px solid #dcdcdc;
+	background: url('https://dl.dropboxusercontent.com/u/93934475/microphone.png')right;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+}
+
+input:focus {
+	background-color: #fff;
+	box-shadow: none;
+	outline: 1px solid #4285f4;
+
+}
+
+input:hover {
+	border: 1px solid #9e9e9e;
+}
+
+fieldset {
+	border: none;
+	width: 240px;
+	margin: auto;
+}
+
+fieldset button{
+	background: #f2f2f2;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+	padding: 8px;
+	font-weight: bold;
+	color: #444;
+}
+
+fieldset button:hover {
+	box-shadow: 0px 1px 0px 0px #e3e3e3;
+}
+
+/* Bottom of Page: Navigation */
+
+#bottom_nav {
+	background-color:#f2f2f2;
+	position: absolute;
+	width: 100%;
+	
+	bottom: 0;
+	
+}
+.left_nav li {
+	display: inline-block;
+	float: left;
+	vertical-align: middle; 
+	padding: 15px;
+	font-size: 13px;
+	font-family: Arial, Sans-Serif;
+}
+
+.right_nav {
+	float: right;
+	margin-right: 5px;
+	padding: 15px;
+}
+
+.right_nav li {
+	display: inline;
+	padding: 0 15px;
+}
+
+
